@@ -8,7 +8,7 @@ let score;
 let scoretext;
 let highscore;
 let highscoreText;
-let press;
+let pressText;
 let player;
 let gravity;
 let obstacles = [];
@@ -167,7 +167,7 @@ function Start () {
     
     scoreText = new Text ("Score: " + score, 25, 25, "left", "#ffffff", "20");
     highscoreText = new Text("Highscore:" + highscore, canvas.width - 200, 25, "left", "#ffffff", "20");
-
+    pressText = new Text ("Press W to jump and S to crouch", canvas.width -750, 40, "left", "#ffffff", "20");
 
     requestAnimationFrame(Update);
 }
@@ -225,6 +225,7 @@ function Update () {
         }
 
     highscoreText.Draw();
+    pressText.Draw();
 
     gameSpeed += 0.003;
 }
