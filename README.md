@@ -8,5 +8,3 @@ If you die, the score resets and a new highscore will be displayed.
 3.Open index.html
 4.Have fun!!!
 
-Follow me on IG @nikolasdan_    :D
-
